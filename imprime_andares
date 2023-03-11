@@ -1,0 +1,25 @@
+
+
+int main() {
+    int i;
+
+    // Laço for
+    for (i = 20; i >= 1; i--) {
+        if (i != 13) {
+            printf("%d\n", i);
+        }
+    }
+
+    printf("\n");
+
+    // Laço while
+    i = 20;
+    while (i >= 1) {
+        if (i != 13) {
+            printf("%d\n", i);
+        }
+        i--;
+    }
+
+    return 0;
+}
